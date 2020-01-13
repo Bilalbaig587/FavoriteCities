@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var populationTextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     
-    var detailItem: city? {
+    var detailItem: City? {
            didSet {
                // Update the view.
                configureView()
